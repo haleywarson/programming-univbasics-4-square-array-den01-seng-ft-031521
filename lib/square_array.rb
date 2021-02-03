@@ -3,7 +3,7 @@ def square_array(array)
   i = 0
   new_array = []
   
-  while i < array.length do
+  array.each do |ele|
     new_nums = array[i] ** array[i]
     new_array << new_nums
     i += 1
