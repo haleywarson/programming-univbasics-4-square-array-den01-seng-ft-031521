@@ -4,7 +4,7 @@ def square_array(array)
   new_array = []
   
   array.each do |ele|
-    new_nums = array[i] ** array[i]
+    new_nums = ele[i] ** ele[i]
     new_array << new_nums
     i += 1
   end
